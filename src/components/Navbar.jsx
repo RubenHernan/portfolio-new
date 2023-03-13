@@ -28,7 +28,7 @@ setIsLight(!isLight)
       </div>
       <div className="logo-r ff-family-logo">
         {/* <span className='ff-family-kalam box-name'>R</span> */}
-        <img src="./img/R.png" alt="R" />
+        <a href="#about"><img src="./img/R.png" alt="R" /></a>
       </div>
     </div>
     <ul className={`box-menu ${isMenu && "box-menu-res"}`}>
