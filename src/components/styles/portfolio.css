@@ -136,35 +136,35 @@ padding-top: 4rem;
 }
 
 .project-hover-2::before {
-    background-image: url(./img/project-2-h.png);
+    background-image: url("/src/assets/img/project-2-h.png");
 }
 
 .project-hover-3::before {
-    background-image: url(./img/project-3-h.png);
+    background-image: url("/src/assets/img/project-3-h.png");
 }
 
 .project-hover-4::before {
-    background-image: url(./img/wiki2.PNG);
+    background-image: url("/src/assets/img/wiki2.PNG");
 }
 
 .project-hover-5::before {
-    background-image: url(./img/poke2.PNG);
+    background-image: url("/src/assets/img/poke2.PNG");
 }
 
 .project-hover-6::before {
-    background-image: url(./img/project-6-h.PNG);
+    background-image: url("/src/assets/img/project-6-h.PNG");
 }
 
 .project-hover-7::before {
-    background-image: url(./img/project-7-h.PNG);
+    background-image: url("/src/assets/img/project-7-h.PNG");
 }
 
 .project-hover-8::before {
-    background-image: url(./img/project-8-h.PNG);
+    background-image: url("/src/assets/img/project-8-h.PNG");
 }
 
 .project-hover-9::before {
-    background-image: url(./img/project-9-h.PNG);
+    background-image: url("/src/assets/img/project-9-h.PNG");
 }
 
 
