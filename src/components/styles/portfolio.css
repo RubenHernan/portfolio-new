@@ -1,0 +1,226 @@
+.section-portfolio{
+padding-top: 4rem;
+    height: auto;
+}
+
+.box-content-portfolio {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    position: relative;
+    /* height: 80vh; */
+    /* max-height: 80vh; */
+    top: 30px;
+}
+
+.box-portfolio {
+    
+    height: 100%;
+    width: 100%;
+    padding: 1rem 0.5rem;
+    margin: 3rem 1rem;
+    margin-top: 5rem;
+    background-color: transparent;
+    border: white 1px solid;
+    transition: width 0.5s;
+}
+
+.box-projects {
+    display: grid;
+    gap: 1rem;
+    background-color: inherit;
+    padding: 0 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    height: 100%;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    z-index: var(--z-index-content);
+
+}
+
+/* .box-projects::-webkit-scrollbar {
+    width: 8px;
+}
+
+.box-projects::-webkit-scrollbar-track {
+    background: transparent;
+    padding: 1rem;
+}
+
+.box-projects::-webkit-scrollbar-thumb {
+    background-color: var(--color-scroll);
+    border-radius: 20px;
+
+} */
+
+.project {
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.project:hover .project-hover {
+    top: 15%;
+}
+
+/* .project-img{
+    background-image: url("../img/project-1.png");
+    background-size: cover; 
+    width: 100%;   
+    position: relative;
+    height: 85%;
+}
+
+.project-img::after {
+    content: "";
+    background-image: url("../img/project-1-h.png");
+    background-size: cover; 
+    top: -300%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-container-2) ;
+    transition: top 0.5s;  }
+
+
+.project-img:hover::after {
+    top: 0;
+    background-color: var(--color-container-2) ;
+  } */
+
+.project-hover {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-container-2);
+    width: 100%;
+    top: -85%;
+    height: 85%;
+    position: absolute;
+    z-index: var(--z-index-content);
+    transition: top 0.5s;
+}
+
+.project-hover p{
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-white);
+    text-align: center;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.project-hover::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /*background-image: url(../img/project-1-h.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+}
+
+/* BACKGROUNDS */
+
+.project-hover-1::before {
+    background-image: url(./img/project-1-h.png);
+}
+
+.project-hover-2::before {
+    background-image: url(./img/project-2-h.png);
+}
+
+.project-hover-3::before {
+    background-image: url(./img/project-3-h.png);
+}
+
+.project-hover-4::before {
+    background-image: url(./img/wiki2.PNG);
+}
+
+.project-hover-5::before {
+    background-image: url(./img/poke2.PNG);
+}
+
+.project-hover-6::before {
+    background-image: url(./img/project-6-h.PNG);
+}
+
+.project-hover-7::before {
+    background-image: url(./img/project-7-h.PNG);
+}
+
+.project-hover-8::before {
+    background-image: url(./img/project-8-h.PNG);
+}
+
+.project-hover-9::before {
+    background-image: url(./img/project-9-h.PNG);
+}
+
+
+
+.project-hover ul {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 1rem;
+}
+
+.project-hover ul li {
+    padding: 0.5rem;
+    background-color: var(--color-container-2);
+    color: var(--color-white);
+    z-index: var(--z-index-text);
+    box-shadow: 7px 8px 1px -4px rgb(0 0 0 / 70%);
+}
+
+
+.project-img {
+    height: 85%;
+    position: relative;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+
+.project-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    color: var(--color-text);
+    background-color: var(--color-container-2);
+    z-index: var(--z-index-content-2);
+}
+
+
+
+@media (min-width: 900px) {
+
+
+     .box-content-portfolio {
+        justify-content: normal;
+        gap: 2rem;
+        padding: 0 7rem;
+    }
+
+}
