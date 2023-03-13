@@ -132,23 +132,23 @@ padding-top: 4rem;
 /* BACKGROUNDS */
 
 .project-hover-1::before {
-    background-image: url("./public/img/project-1-h.png");
+    background-image: url('./img/project-1-h.png');
 }
 
 .project-hover-2::before {
-    background-image: url("./public/img/project-2-h.png");
+    background-image: url(./img/project-2-h.png);
 }
 
 .project-hover-3::before {
-    background-image: url("./public/img/project-3-h.png");
+    background-image: url(./img/project-3-h.png);
 }
 
 .project-hover-4::before {
-    background-image: url("./public/img/wiki2.PNG");
+    background-image: url(./img/wiki2.PNG);
 }
 
 .project-hover-5::before {
-    background-image: url("./public/img/poke2.PNG");
+    background-image: url(./img/poke2.PNG);
 }
 
 .project-hover-6::before {
