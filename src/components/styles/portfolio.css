@@ -132,7 +132,7 @@ padding-top: 4rem;
 /* BACKGROUNDS */
 
 .project-hover-1::before {
-    background-image: url('./img/project-1-h.png');
+    background-image: url(./img/project-1-h.png);
 }
 
 .project-hover-2::before {
