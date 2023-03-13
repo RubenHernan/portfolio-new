@@ -21,7 +21,7 @@ const Contact = () => {
     </div>
     <div className="container-contact">
       <div className="box-contact ff-family-poppins-regular">
-        <form className="form-contact" name="contact" netlify>
+        <form className="form-contact" name="contact" data-netlify="true">
           <div className="form-group ">
             <input required="required" type="text" name="name" id="name"/>
             <label htmlFor="">Name</label>
