@@ -152,19 +152,19 @@ padding-top: 4rem;
 }
 
 .project-hover-6::before {
-    background-image: url(./img/project-6-h.PNG);
+    background-image: url("./img/project-6-h.PNG");
 }
 
 .project-hover-7::before {
-    background-image: url(./img/project-7-h.PNG);
+    background-image: url("./img/project-7-h.PNG");
 }
 
 .project-hover-8::before {
-    background-image: url(./img/project-8-h.PNG);
+    background-image: url("./img/project-8-h.PNG");
 }
 
 .project-hover-9::before {
-    background-image: url(./img/project-9-h.PNG);
+    background-image: url("./img/project-9-h.PNG");
 }
 
 
