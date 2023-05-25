@@ -44,21 +44,23 @@ const Portfolio = () => {
               <img src="./img/project-2.png" alt="project-2"/>
             </div>
           </div>
-          {/* <!-- <div class="project">
+          <div class="project">
             <div class="project-hover project-hover-3">
+            <p>An Occupational Health Web for a Hospital working as a FullStack Developer!</p>
               <ul class="ff-family-sen">
+                <li>Laravel</li>
                 <li>PHP</li>
-                <li>HTML-CSS</li>
-                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>Tailwind</li>
               </ul>
             </div>
             <div class="project-title">
-              <span class="ff-family-sen">Hotel reservation</span>
+              <span class="ff-family-sen">Occupational Health Web</span>
             </div>
             <div class="project-img">
-              <img src="./src/img/project-3.png" alt="project-3">
+              <img src="./img/project-3.PNG" alt="project-3"/>
             </div>
-          </div> --> */}
+          </div> 
           <div className="project">
             <div className="project-hover project-hover-4">
                 <p>A wiki to list all dimensions and their characters from the series using the Rick and Morty API!</p>

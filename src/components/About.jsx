@@ -24,6 +24,7 @@ const About = ({isLight}) => {
             <img src="./img/icon-js.png" alt="Logo" />
             <img src="./img/icon-react.png" alt="Logo"/>
             <img src="./img/icon-node.png" alt="Logo"/>
+            <img src="./img/icon-laravel.png" alt="Logo"/>
 
           </div>
         </div>
