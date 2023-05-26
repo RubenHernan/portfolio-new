@@ -21,7 +21,7 @@ const Contact = () => {
     </div>
     <div className="container-contact">
       <div className="box-contact ff-family-poppins-regular">
-        <form method='POST' className="form-contact" name="contact" data-netlify="true" onSubmit="submit">
+        <form method='post' action='/contact' className="form-contact" name="contact" data-netlify="true" onSubmit="submit">
         <input type="hidden" name="form-name" value="contact"/>
           <div className="form-group ">
             <input required="required" type="text" name="name" id="name"/>
