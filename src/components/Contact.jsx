@@ -21,7 +21,8 @@ const Contact = () => {
     </div>
     <div className="container-contact">
       <div className="box-contact ff-family-poppins-regular">
-        <form method='POST' className="form-contact" name="contact" netlify>
+        <form method='POST' className="form-contact" name="contact" data-netlify="true" onSubmit="submit">
+        <input type="hidden" name="form-mame" value="contact"/>
           <div className="form-group ">
             <input required="required" type="text" name="name" id="name"/>
             <label htmlFor="">Name</label>
@@ -45,7 +46,7 @@ const Contact = () => {
             <span className="bar"></span>
           </div>
           <div className="form-group">
-            <button name="submit" id="submit">Send</button>
+            <button type='submit' name="submit" id="submit">Send</button>
           </div>
         </form>
       </div>
